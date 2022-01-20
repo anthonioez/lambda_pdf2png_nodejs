@@ -1,0 +1,19 @@
+{
+  "name": "pdf2png",
+  "version": "1.0.0",
+  "description": "Lambda function to grab a PDF from a S3 bucket, split it into multiple PNGs, one for each page. Upload all those to another S3 bucket in a folder.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.2",
+    "aws-sdk": "^2.427.0",
+    "gm": "^1.23.1"
+  }
+}
